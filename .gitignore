@@ -1,0 +1,119 @@
+# ==========================================
+# Dotfiles .gitignore
+# ==========================================
+
+# ==========================================
+# Emacs Auto-Generated Files
+# ==========================================
+emacs/.emacs.d/auto-save-list/
+emacs/.emacs.d/elpa/
+emacs/.emacs.d/eln-cache/
+emacs/.emacs.d/transient/
+emacs/.emacs.d/var/
+emacs/.emacs.d/url/
+emacs/.emacs.d/recentf
+emacs/.emacs.d/places
+emacs/.emacs.d/bookmarks
+emacs/.emacs.d/history
+emacs/.emacs.d/ido.last
+emacs/.emacs.d/projectile-bookmarks.eld
+emacs/.emacs.d/projectile.cache
+emacs/.emacs.d/ac-comphist.dat
+emacs/.emacs.d/session.*
+emacs/.emacs.d/smex-items
+emacs/.emacs.d/request/
+emacs/.emacs.d/games/
+emacs/.emacs.d/.cache/
+emacs/.emacs.d/tree-sitter/
+emacs/.emacs.d/straight/
+
+# Emacs temporary files (anywhere in emacs/)
+emacs/**/*.elc
+emacs/**/*~
+emacs/**/.#*
+emacs/**/#*#
+emacs/**/TAGS
+emacs/**/tags
+
+# ==========================================
+# Shell Auto-Generated Files  
+# ==========================================
+# Zsh
+zsh/.zsh_history
+zsh/.zsh_sessions/
+zsh/.zcompdump*
+
+# Bash
+bash/.bash_history
+bash/.bash_sessions/
+
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Vim Auto-Generated Files
+# ==========================================
+vim/.vim/bundle/
+vim/.viminfo
+vim/.vim/.netrwhist
+vim/.vim/sessions/
+vim/.vim/undodir/
+vim/**/*.swp
+vim/**/*.swo
+vim/**/*~
+
+# ==========================================
+# Git Configuration (Personal Info)
+# ==========================================
+git/.gitconfig.local
+git/.gitconfig.user
+
+# ==========================================
+# SSH Keys and Sensitive Files
+# ==========================================
+ssh/**/id_*
+ssh/**/known_hosts
+ssh/**/authorized_keys
+ssh/**/*.pem
+ssh/**/*.key
+
+# ==========================================
+# General Development Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+
+# ==========================================
+# IDE/Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.sublime-*
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+*~
+*.swp
+*.swo
+.directory
+desktop.ini
+
+# ==========================================
+# Application Caches and Logs
+# ==========================================
+*/cache/
+*/logs/
+*/.cache/
+*/.logs/
