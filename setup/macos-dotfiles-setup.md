@@ -1,4 +1,4 @@
-# macOS Development Setup with Dotfiles
+a --tree# macOS Development Setup with Dotfiles
 
 This guide walks through setting up a new macOS machine with dotfiles managed by GNU Stow and oh-my-zsh, with SSH authentication for GitHub.
 
