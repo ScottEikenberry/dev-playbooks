@@ -2,6 +2,6 @@ Ask me one question at a time so we can develop a thorough, step-by-step spec fo
 
 Here’s the idea:
 
-## IDEA
+**IDEA**
 
 Now that we’ve wrapped up the brainstorming process, can you compile our findings into a comprehensive, developer-ready specification? Include all relevant requirements, architecture choices, data handling details, error handling strategies, and a testing plan so a developer can immediately begin implementation.
